@@ -80,7 +80,7 @@ export async function getAccount() {
 
     return currentAccount;
   } catch (error) {
-    console.log(error);
+    console.log(error );
   }
 }
 
@@ -188,7 +188,7 @@ export function getFilePreview(fileId: string) {
       fileId,
       2000,
       2000,
-      "top",
+      undefined,
       100
     );
 
